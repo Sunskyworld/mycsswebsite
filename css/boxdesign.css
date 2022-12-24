@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+hr {
+    border-style: dotted;
+    border-color: gold;
+    border-top-width: 10px;
+    width: 20%;
+    size: 20px;
+}
+div {
+    background-color: white;
+    border-color: black;
+    border-width: 0px 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;  
+    position: relative;  
+}
+
+.top-container {
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 200px;
+    padding: 0px;
+    width: 200px;
+    margin-left: 0px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+.middle-container {
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 200px;
+    padding: 0px;
+    width: 200px;
+    margin-left: 0px;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}
+.bottom-container {
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 200px;
+    padding: 0px;
+    width: 200px;
+    margin-left: 0px;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}
+
+
+.just-top {
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+
+
+}
+.just-middle {
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+
+}
+.just-bottom {
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
